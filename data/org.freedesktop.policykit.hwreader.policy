@@ -7,16 +7,16 @@
   <vendor>HWReader</vendor>
   <vendor_url>https://github.com/DrumoDeD/HWReader</vendor_url>
 
-  <action id="org.freedesktop.policykit.pkexec.dmidecode">
-    <description>Run dmidecode without password for HWReader</description>
-    <message>Authentication is required to read hardware memory tables</message>
+  <action id="org.freedesktop.policykit.pkexec.hwreader">
+    <description>Run hwreader with superuser privileges</description>
+    <message>Authentication is required to read hardware tables</message>
     <icon_name>audio-card</icon_name>
     <defaults>
       <allow_any>no</allow_any>
       <allow_inactive>no</allow_inactive>
       <allow_active>yes</allow_active>
     </defaults>
-    <annotate key="org.freedesktop.policykit.exec.path">/usr/sbin/dmidecode</annotate>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/libexec/hwreader</annotate>
     <annotate key="org.freedesktop.policykit.exec.allow_gui">false</annotate>
   </action>
 

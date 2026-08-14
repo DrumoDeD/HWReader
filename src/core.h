@@ -5,8 +5,8 @@
 
 #include <stddef.h>
 
-#define CONFIG_PATH_FILE "path.conf"
-#define ERR_LOG_FILE "hwreader_error.log"
+#define CONFIG_PATH_FILE "/etc/hwreader/path.conf"
+#define ERR_LOG_FILE "/var/log/hwreader_error.log"
 
 void err_interpretator(int err_code);
 

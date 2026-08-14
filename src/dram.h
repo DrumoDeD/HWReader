@@ -5,7 +5,7 @@
 
 #include <stddef.h>
 
-#define POLKIT_COMMAND "pkexec /usr/sbin/dmidecode -t 17 2> /dev/null"
+#define POLKIT_COMMAND "usr/sbin/dmidecode -t 17 2> /dev/null"
 
 typedef struct{
 char vendor[128];

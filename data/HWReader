@@ -1,0 +1,2 @@
+#!/usr/bin/sh
+pkexec /usr/libexec/hwreader
